@@ -1,0 +1,34 @@
+{
+  "users": {
+    "valid": [
+      {
+        "username": "validuser",
+        "email": "validuser@example.com",
+        "password": "Password123",
+        "description": "Valid user with standard permissions"
+      },
+      {
+        "username": "validuser2",
+        "email": "validuser2@example.com",
+        "password": "Password123",
+        "description": "Second valid user for parallel testing"
+      }
+    ],
+    "invalid": [
+      {
+        "username": "invaliduser",
+        "email": "invalid@example.com",
+        "password": "wrongpassword",
+        "description": "User with invalid credentials"
+      }
+    ],
+    "admin": [
+      {
+        "username": "adminuser",
+        "email": "admin@example.com",
+        "password": "AdminPass123",
+        "description": "Admin user with elevated permissions"
+      }
+    ]
+  }
+}

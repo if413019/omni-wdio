@@ -1,0 +1,38 @@
+{
+  "products": {
+    "standard": [
+      {
+        "id": "prod-001",
+        "name": "Standard Product 1",
+        "price": 19.99,
+        "category": "category1",
+        "description": "First standard product for testing"
+      },
+      {
+        "id": "prod-002",
+        "name": "Standard Product 2",
+        "price": 29.99,
+        "category": "category1",
+        "description": "Second standard product for testing"
+      }
+    ],
+    "featured": [
+      {
+        "id": "prod-101",
+        "name": "Featured Product 1",
+        "price": 49.99,
+        "category": "category2",
+        "description": "First featured product for testing"
+      }
+    ],
+    "outOfStock": [
+      {
+        "id": "prod-201",
+        "name": "Out of Stock Product",
+        "price": 39.99,
+        "category": "category3",
+        "description": "Product that is out of stock for testing"
+      }
+    ]
+  }
+}

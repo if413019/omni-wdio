@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test reports
+allure-results/
+allure-report/
+mochawesome-report/
+test-results/
+
+# App binaries (consider whether you want to version control these or not)
+# Uncomment to ignore app binaries
+#apps/app.apk
+#apps/app.app/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# WebdriverIO specific
+errorShots/
+screenshots/
+videos/
+wdio.local.conf.js
+
+# Temporary files
+temp/
+tmp/
+
+# App files
+apps/
